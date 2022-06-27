@@ -3,7 +3,7 @@ public class odd_even
 {
     public static void main(String[] args)
     {
-
+       //The input provided by user is stored in num
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
