@@ -1,19 +1,25 @@
-import java.util.Scanner;
+ public class parameter
+ {  // class 1
+    int length;
+    int width;
+    void insert(int l, int w) 
+    {   // method
+        length = l;
+        width = w;
 
-public class Parametar
-{
-   public static void main(String[] args)
-   {
-      Scanner s1 = new Scanner(System.in);
-      
-      System.out.print("Enter the Side Length of Square: ");
-      float c = s1.nextFloat();
-      
-      float a = c*c;
-      float b = 4*c;
-      System.out.println("\nArea = " +a);
-      System.out.println("\nPerimeter = " +b);
-        
     }
-
+    void calculateArea() 
+    {   // another method
+        System.out.println("The paramter of rectangle is "+2*(length + width));  // logic
+    }
+    class parameter_Rectangle1
+    {    // class 2
+        public static void main(String[] args) 
+        {   // main method
+            parameter_Rectangle r1 = new parameter_Rectangle();  // object 
+            r1.insert(15,5);    // insert the value
+            r1.calculateArea();    // call the 2nd method
+            
+        }
+    }
 }
