@@ -5,7 +5,7 @@ CREATE TABLE `department`
   `Dept_zone` varchar(20) NOT NULL,
   `Dept_block` varchar(20) NOT NULL,
   `Dept_name` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 -- Dumping data for table `department`
 
