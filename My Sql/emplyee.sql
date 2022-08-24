@@ -5,7 +5,7 @@ CREATE TABLE `employee`
   `emp_name` varchar(50) NOT NULL,
   `emp_age` varchar(20) NOT NULL,
   `emp_dept` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 -- Dumping data for table `employee`
 
