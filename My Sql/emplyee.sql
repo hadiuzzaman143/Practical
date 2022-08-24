@@ -28,7 +28,7 @@ ADD PRIMARY KEY (`emp_id`);
 ALTER TABLE `employee`
 MODIFY `emp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
-
+-- Alter Table
 ALTER TABLE employee MODIFY emp_name VARCHAR(25);
 -- Update 
 UPDATE employee SET emp_name = 'E' WHERE emp_id = 3 ;
