@@ -26,22 +26,6 @@ ALTER TABLE `customar`
 ADD PRIMARY KEY (`Cust_id`);
 COMMIT;
 
--- create a table and adding column
-SELECT * FROM customar_db.customar;
-CREATE TABLE CUSTOMER_DB(Cust_id varchar(5), Fname varchar(15), Lname VARCHAR(15), Area CHAR(2), Phone numeric(10), DOB VARCHAR(20), Payment numeric(6,2));
-
-SELECT * FROM customar_db.customar;
-
--- insert values in columns
-INSERT INTO customer_db VALUE('A01', 'Ivan', 'Ross', 'SA', 6125467,'15-jan-86', 800.50);
-INSERT INTO customer_db VALUE('A02', 'Vandana', 'Ray', 'MU', 5560379,'20-dec-87', 1000.75);
-INSERT INTO customer_db VALUE('A03', 'Pramada', 'Jauguste', 'DA', 4560389,'25-jul-67', 500.00);
-INSERT INTO customer_db VALUE('A04', 'Basu ', 'Navindi', 'BA', 6125401 ,'30-feb-56', 860.00);
-INSERT INTO customer_db VALUE('A05', 'Ravi', 'Shridhar', 'NA', null,'15-feb-89', 500.50);
-INSERT INTO customer_db VALUE('A06', 'Rukmini', 'Aiyer', 'GH', 5125274,'23-jul-87', 1500.50);
-
-SELECT * FROM customar_db.customar;
-
 -- add new column
 ALTER TABLE customer_db ADD COLUMN `SYS_DATE` DATE AFTER `Payment`;
 
