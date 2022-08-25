@@ -47,12 +47,12 @@ delete FROM customer_db where CUST_ID = 'A05';
 TRUNCATE TABLE customer_db;
 
 -- insert values in columns
-INSERT INTO customer_db VALUE('B01', 'Ratan', 'Ross', 'SA', 6125467,'15-jan-86', 800.50, '1996-01-15' );
-INSERT INTO customer_db VALUE('B02', 'Vivek', 'Ray', 'MU', 5560379,'20-dec-87', 1000.75, '1997-12-20');
-INSERT INTO customer_db VALUE('B03', 'Pratim', 'Jauguste', 'DA', 4560389,'25-jul-67', 500.00, '1997-07-25');
-INSERT INTO customer_db VALUE('B04', 'Bina', 'Navindi', 'BA', 6125401 ,'30-feb-56', 860.00, '1996-02-15');
-INSERT INTO customer_db VALUE('B05', 'Ratul', 'Shridhar', 'NA', null,'15-feb-89', 500.50, '1990-12-25');
-INSERT INTO customer_db VALUE('B06', 'Smita', 'Aiyer', 'GH', 5125274,'23-jul-87', 1500.50, '1996-08-15');
+INSERT INTO customer_db VALUE('B01', 'Ratan', 'Ross', 'SA', 6125467,'1986-06-15', 800.50, '1996-01-15' );
+INSERT INTO customer_db VALUE('B02', 'Vivek', 'Ray', 'MU', 5560379,'1987-12-20', 1000.75, '1997-12-20');
+INSERT INTO customer_db VALUE('B03', 'Pratim', 'Jauguste', 'DA', 4560389,'1967-07-25', 500.00, '1997-07-25');
+INSERT INTO customer_db VALUE('B04', 'Bina', 'Navindi', 'BA', 6125401 ,'1956-03-30', 860.00, '1996-02-15');
+INSERT INTO customer_db VALUE('B05', 'Ratul', 'Shridhar', 'NA', null,'1989-02-15', 500.50, '1990-12-25');
+INSERT INTO customer_db VALUE('B06', 'Smita', 'Aiyer', 'GH', 5125274,'1987-07-23', 1500.50, '1996-08-15');
 
 SELECT * FROM customar_db.customar;
 
